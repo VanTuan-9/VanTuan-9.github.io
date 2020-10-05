@@ -1,0 +1,58 @@
+*
+{
+    margin: 0 0 0 3px;
+    padding: 0;
+    font-size: 120%;
+}
+.title
+{
+    background-color: tan;
+    color: blue;
+    margin: 30px 0;
+}
+
+.a
+{
+    background-color: black;
+    color: white;
+    width: fit-content;
+    margin-top: 20px;
+}
+.Mixi
+{
+    text-align: center;
+}
+h3
+{
+    color: springgreen;
+    background-color: slategray;
+}
+.div1
+{
+    color: black;
+    background-color: chartreuse;
+}
+.div2
+{
+    color: black;
+    background-color: coral;
+}
+.tieude
+{
+    background-color: aqua;
+    color: darkblue;
+    margin-top: 20px;
+}
+.tho
+{
+    background-color: violet;
+    color: rebeccapurple;
+    margin-top: 20px;
+}
+.hit
+{
+    color: red;
+    background-color: moccasin;
+    margin: 30px 0;
+    font-size: 200%;
+}
