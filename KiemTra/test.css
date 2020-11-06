@@ -1,0 +1,171 @@
+*
+{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif, Courier, monospace;
+}
+.header,.menu,.header-3,.header-1,.container,.container-1 > div,.footer,.container-p2-text,.ctn-1
+{
+    display: flex;
+}
+.header
+{
+    cursor: pointer;
+    max-width: 80%;
+    margin: 40px auto;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.header-1
+{
+    width: 70%;
+    justify-content: space-between;
+}
+.header-1 > img
+{
+    width: 30px;
+    height: 30px;
+    margin-right: 100px;
+}
+.menu > a
+{
+    text-decoration: none;
+    color: black;
+    padding: 15px;
+}
+.menu > a:hover
+{
+    color: aqua;
+}
+.header-3,.header-1
+{
+    align-items: center;
+}
+.text1
+{
+    padding: 10px;
+    color: blue;
+}
+.text1:hover
+{
+    color: aqua;
+}
+.text2
+{
+    padding: 10px;
+    border: solid 1px red;
+    border-radius: 10px;
+    color: red;
+}
+.text2:hover
+{
+    background-color: red;
+    color: white;
+}
+
+.container-1
+{
+    max-width: 50%;
+}
+.fa
+{
+    padding: 5px;
+    border-radius: 50%;
+    background-color: red;
+    font-size: 80%;
+    color: white;
+}
+.container-1 > div
+{
+    width: 100%;
+    justify-content: space-between;
+}
+.container-text-1,.container-text-2
+{
+    width: 45%;
+    padding: 10px 0;
+    border-radius: 10px;
+    text-align: center;
+}
+.container-text-1
+{
+    background-color: red;
+    color: white;
+}
+.container-text-1:active
+{
+    box-shadow: 0 0 5px gray;
+}
+.container-text-2:hover
+{
+    border: solid gray 1px;
+    padding: 9px 0;
+    border-radius: 10px;
+}
+.container
+{
+    max-width: 80%;
+    margin: 0 auto;
+}
+h1,.container-1 > p,.container-1 > div,.conteiner-p2 > p
+{
+    margin: 30px 0;
+}
+.container-2
+{
+    width: 50%;
+}
+.container-2 > img
+{
+    width: 100%;
+    height: 100%;
+}
+
+.container-p2
+{
+    max-width: 30%;
+    margin: 0 auto;
+    text-align: center;
+}
+.container-p2-text
+{
+    width: 100%;
+    align-items: center;
+    flex-direction: column;
+}
+.container-p2-text div > p
+{
+    padding: 10px;
+    border: 1px solid lightsteelblue;
+    border-radius: 10px;
+    color: gray;
+    width: max-content;
+    text
+}
+.ctn-1
+{
+    margin: 10px;
+}
+.ctn-1 > p
+{
+    margin: 0 5px;
+}
+.ctn-1 > p:hover
+{
+    background-color: lightsteelblue;
+    cursor: pointer;
+}
+.footer
+{
+    justify-content: space-around;
+    background-color: midnightblue;
+    height: 100px;
+    color: white;
+    align-items: center;
+}
+.fab
+{
+    font-size: 130%;
+    color: deepskyblue;
+    padding: 0 10px;
+}
